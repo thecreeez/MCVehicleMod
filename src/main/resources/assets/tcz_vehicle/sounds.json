@@ -1,0 +1,37 @@
+{
+  "driving_niva": {
+    "subtitle": "sounds.tcz_vehicles.niva.driving",
+    "sounds": [
+      "tcz_vehicle:niva/driving"
+    ]
+  },
+  "staying_niva": {
+    "subtitle": "sounds.tcz_vehicles.niva.staying",
+    "sounds": [
+      "tcz_vehicle:niva/staying"
+    ]
+  },
+
+  "open_hood": {
+    "subtitle": "sounds.tcz_vehicles.open_hood",
+    "sounds": [
+      "tcz_vehicle:open_hood"
+    ]
+  },
+  "close_hood": {
+    "subtitle": "sounds.tcz_vehicles.close_hood",
+    "sounds": [
+      "tcz_vehicle:close_hood"
+    ]
+  },
+  "music_1": {
+    "subtitle": "sounds.tcz_vehicles.music.1",
+
+    "sounds": [
+      {
+        "name": "tcz_vehicle:music/1",
+        "stream": true
+      }
+    ]
+  }
+}

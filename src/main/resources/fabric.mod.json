@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "vehiclemod",
+  "version": "${version}",
+  "name": "TCZ's VehicleMod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/vehiclemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.tcz.vehiclemod.client.VehiclemodClient"
+    ],
+    "main": [
+      "net.tcz.vehiclemod.Vehiclemod"
+    ]
+  },
+  "mixins": [
+    "vehiclemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
